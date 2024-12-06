@@ -1,0 +1,91 @@
+.header-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c364c;
+  padding: 20px;
+}
+.link-item {
+  text-decoration: none;
+}
+.header-ul-item {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin: 0px;
+}
+
+@media all and (max-width: 767px) {
+  .header-logo {
+    height: 40px;
+    width: 100px;
+  }
+  .laptop-header-container {
+    display: none;
+  }
+  .laptop-btn-container {
+    display: none;
+  }
+  .header-mobile-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .mobile-header-home {
+    background-color: transparent;
+    border-width: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .home-icon {
+    height: 35px;
+    width: 35px;
+  }
+  .jobs-icon {
+    height: 28px;
+    width: 28px;
+  }
+}
+@media all and (min-width: 768px) {
+  .header-mobile-details-container {
+    display: none;
+  }
+  .header-logo {
+    margin-left: 20px;
+    height: 40px;
+    width: 120px;
+  }
+  .laptop-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .laptop-home {
+    color: #ffffff;
+    font-family: 'Roboto';
+    margin: 10px;
+    font-size: 18px;
+  }
+  .laptop-jobs {
+    color: #ffffff;
+    font-family: 'Roboto';
+    margin: 10px;
+    font-size: 18px;
+  }
+  .laptop-logout-btn {
+    background-color: #4f46e5;
+    border-width: 0px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 20px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,326 @@
+.job-item-main-bg {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.job-item-main-container {
+  padding: 50px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.job-details-failure-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retry-btn {
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 45px;
+  width: 80px;
+  cursor: pointer;
+}
+.job-details-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 30px;
+  background-color: #272727;
+  box-shadow: 0px 4px 16px 0px #272727;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 10px;
+}
+.job-details-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.job-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.job-details-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.job-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media all and (max-width: 767px) {
+  .job-details-failure-img {
+    height: 200px;
+    width: 250px;
+  }
+  .job-details-failure-head {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+  }
+  .job-details-failure-desc {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+  }
+  .company-logo-img {
+    height: 70px;
+    width: 50px;
+  }
+  .job-details-title {
+    color: #f1f5f9;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+  .star {
+    color: #fbbf24;
+    height: 20px;
+    width: 20px;
+  }
+  .job-details-rating {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .location {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .jobs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .package {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .location-icon {
+    height: 20px;
+    width: 20px;
+    color: #f1f5f9;
+  }
+  .job-details-jobs-icon {
+    height: 15px;
+    width: 15px;
+    color: #f1f5f9;
+  }
+  .job-item-desc-head {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-size: 18px;
+  }
+  .job-description {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .visit {
+    font-family: 'Roboto';
+    color: #4f46e5;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .link-element {
+    height: 18px;
+    width: 18px;
+    padding-left: 5px;
+    color: #4f46e5;
+    cursor: pointer;
+  }
+  .life-at-company-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .similar-jobs-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .job-details-failure-head {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 35px;
+  }
+  .job-details-failure-desc {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+  }
+  .company-logo-img {
+    height: 70px;
+    width: 60px;
+  }
+  .job-details-title {
+    color: #f1f5f9;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 22px;
+  }
+  .star {
+    color: #fbbf24;
+    height: 20px;
+    width: 20px;
+  }
+  .job-details-rating {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .location {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .jobs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .package {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .location-icon {
+    height: 28px;
+    width: 28px;
+    color: #f1f5f9;
+  }
+  .job-details-jobs-icon {
+    height: 20px;
+    width: 20px;
+    color: #f1f5f9;
+  }
+  .job-item-desc-head {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-size: 28px;
+  }
+  .job-description {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .visit {
+    font-family: 'Roboto';
+    color: #4f46e5;
+    font-size: 23px;
+    text-decoration: none;
+  }
+  .link-element {
+    height: 23px;
+    width: 23px;
+    padding-left: 5px;
+    color: #4f46e5;
+    cursor: pointer;
+  }
+  .life-at-company-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .similar-jobs-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+  }
+}
+.job-item-section {
+}
+.job-descp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.link-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+.skills-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
+}

@@ -1,0 +1,93 @@
+.home-container {
+  min-height: 100vh;
+  background-size: cover;
+}
+
+@media all and (max-width: 767px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+  }
+  .home-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding: 40px;
+  }
+  .home-find-jobs-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 30px;
+  }
+  .home-desc {
+    color: #f1f5f9;
+    font-family: 'Roboto';
+    font-size: 18px;
+  }
+  .find-jobs-btn {
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #4f46e5;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #f1f5f9;
+    height: 33px;
+    width: 100px;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  }
+  .home-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding: 40px;
+  }
+  .home-find-jobs-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 70px;
+  }
+  .home-desc {
+    color: #f1f5f9;
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+  .find-jobs-btn {
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #4f46e5;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #f1f5f9;
+    height: 48px;
+    width: 120px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
